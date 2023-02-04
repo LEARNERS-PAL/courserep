@@ -1,0 +1,32 @@
+{
+  "name": "courserep",
+  "version": "1.0.0",
+  "description": "A whatsApp automoated bot to rep a course rep",
+  "main": "App.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon App.ts",
+    "bot": "nodemon --exec ts-node App.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LEARNERS-PAL/courserep.git"
+  },
+  "keywords": [
+    "bot",
+    "automation",
+    "whatsApp",
+    "courserep",
+    "mini-project"
+  ],
+  "author": "qbentil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LEARNERS-PAL/courserep/issues"
+  },
+  "homepage": "https://github.com/LEARNERS-PAL/courserep#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
