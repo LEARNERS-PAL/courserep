@@ -27,6 +27,11 @@
   "homepage": "https://github.com/LEARNERS-PAL/courserep#readme",
   "dependencies": {
     "nodemon": "^2.0.20",
-    "ts-node": "^10.9.1"
+    "qrcode-terminal": "^0.12.0",
+    "ts-node": "^10.9.1",
+    "whatsapp-web.js": "^1.19.3"
+  },
+  "devDependencies": {
+    "@types/qrcode-terminal": "^0.12.0"
   }
 }
