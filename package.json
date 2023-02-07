@@ -5,7 +5,7 @@
   "main": "App.ts",
   "scripts": {
     "build": "tsc",
-    "start": "nodemon App.ts",
+    "start": "ts-node App.ts",
     "bot": "nodemon --exec ts-node App.ts"
   },
   "repository": {
