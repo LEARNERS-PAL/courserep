@@ -62,11 +62,6 @@ It is built using [TypeScript](https://www.typescriptlang.org/), [Node.js](https
 - [wweb.js](https://wwebjs.dev/)
 
 
-
-
-
-
-
 ## :sparkles: Features Checklist ##
 
 - [ ] Send reminders on lectures and tutorials
