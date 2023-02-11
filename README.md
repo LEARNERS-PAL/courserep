@@ -8,21 +8,21 @@
 
 <h1 align="center">Courserep</h1>
 
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/qbentil/courserep?color=56BEB8">
+<!-- <p align="center">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/LEARNERS-PAL/courserep?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/qbentil/courserep?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/LEARNERS-PAL/courserep?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/qbentil/courserep?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/LEARNERS-PAL/courserep?color=56BEB8">
 
-  <!-- <img alt="License" src="https://img.shields.io/github/license/qbentil/courserep?color=56BEB8"> -->
+  <img alt="License" src="https://img.shields.io/github/license/LEARNERS-PAL/courserep?color=56BEB8">
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/qbentil/courserep?color=56BEB8" />
+  <img alt="Github issues" src="https://img.shields.io/github/issues/LEARNERS-PAL/courserep?color=56BEB8" />
 
-  <img alt="Github forks" src="https://img.shields.io/github/forks/qbentil/courserep?color=56BEB8" />
+  <img alt="Github forks" src="https://img.shields.io/github/forks/LEARNERS-PAL/courserep?color=56BEB8" />
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/qbentil/courserep?color=56BEB8" />
-</p>
+  <img alt="Github stars" src="https://img.shields.io/github/stars/LEARNERS-PAL/courserep?color=56BEB8" />
+</p> -->
 
 Status
 
@@ -38,7 +38,7 @@ Status
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="https://github.com/qbentil" target="_blank">Author</a>
+  <a href="https://github.com/LEARNERS-PAL" target="_blank">Author</a>
 </p>
 
 <br>
