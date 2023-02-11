@@ -22,11 +22,11 @@ let isDevMode = false;
                 '--disable-setuid-sandbox',
             ]
         },
-        // authStrategy: new RemoteAuth({
-        //     store: store,
-        //     backupSyncIntervalMs: 300000
-        // })
-        authStrategy: new LocalAuth()
+        authStrategy: new RemoteAuth({
+            store: store,
+            backupSyncIntervalMs: 300000
+        })
+        // authStrategy: new LocalAuth()
     });
 
     const connection = mongoose.connection;
