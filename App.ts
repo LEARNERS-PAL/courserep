@@ -1,4 +1,4 @@
-import WAWebJS, { Client, RemoteAuth } from 'whatsapp-web.js';
+import WAWebJS, { Client, LocalAuth, RemoteAuth } from 'whatsapp-web.js';
 
 import DBCONNECT from './mongodb/_init';
 import { MongoStore } from 'wwebjs-mongo';
@@ -22,10 +22,11 @@ let isDevMode = false;
                 '--disable-setuid-sandbox',
             ]
         },
-        authStrategy: new RemoteAuth({
-            store: store,
-            backupSyncIntervalMs: 300000
-        })
+        // authStrategy: new RemoteAuth({
+        //     store: store,
+        //     backupSyncIntervalMs: 300000
+        // })
+        authStrategy: new LocalAuth()
     });
 
     const connection = mongoose.connection;
