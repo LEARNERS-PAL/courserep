@@ -1,7 +1,7 @@
 <div align="center" id="top"> 
   <img src="./.github/app.gif" alt="Courserep" />
 
-  &#xa0;
+&#xa0;
 
   <!-- <a href="https://courserep.netlify.app">Demo</a> -->
 </div>
@@ -28,7 +28,7 @@ Status
 
 <h4 align="center"> 
 	🚧  Courserep 🚀 Under construction...  🚧
-</h4> 
+</h4>
 
 <hr>
 
@@ -43,15 +43,12 @@ Status
 
 <br>
 
-## :dart: About ##
+## :dart: About
 
-
-This is a WhatsApp bot that helps you to get the latest updates from your course reps. 
+This is a WhatsApp bot that helps you to get the latest updates from your course reps.
 It is intended to assist the course reps in their duties and to help students get the latest updates from their Lecturers.
 
 It is built using [TypeScript](https://www.typescriptlang.org/), [Node.js](https://nodejs.org/en/), [Express](https://expressjs.com/), [MongoDB](https://www.mongodb.com/) and [Wweb.js](https://wwebjs.dev/).
-
-
 
 ### Prerequisites
 
@@ -61,8 +58,7 @@ It is built using [TypeScript](https://www.typescriptlang.org/), [Node.js](https
 - [Git](https://git-scm.com/)
 - [wweb.js](https://wwebjs.dev/)
 
-
-## :sparkles: Features Checklist ##
+## :sparkles: Features Checklist
 
 - [ ] Send reminders on lectures and tutorials
 - [ ] Send reminders on assignments, tests and quizzes
@@ -72,7 +68,7 @@ It is built using [TypeScript](https://www.typescriptlang.org/), [Node.js](https
 - [ ] Random jokes and quotes to make chat more lively
 - [ ] ...............
 
-## :rocket: Technologies ##
+## :rocket: Technologies
 
 The following tools were used in this project:
 
@@ -82,27 +78,67 @@ The following tools were used in this project:
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Requirements
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Starting
 
 1. Clone the repo
+
 ```sh
 git clone https://github.com/learners-pal/courserep.git
 ```
+
 2. Install NPM packages
+
 ```sh
 npm install
 ```
+
 3. Create a `.env` file in the root directory and add the following
+
 ```sh
 MONGO_URI=<your_mongo_uri>
 ```
+
 4. Run the app
+
 ```sh
 npm run bot
+```
+
+## :memo: Bugs 🐛
+
+On start up, you are likely to get an error like this:
+
+```sh
+Error: TypeError: Cannot read property 'collection' of undefined in MongoStore ........
+```
+
+This is because the `MongoStore` is not yet connected to the database. To fix this,
+
+1. Open the `node_modules/wwebjs-mongo/src/MongoStore.js` file and make the following changes on line 10 and 11
+
+```sh
+    # Before
+      let multiDeviceCollection = this.mongoose.connection.db.collection(`whatsapp-${options.session}.files`);
+      let hasExistingSession = await multiDeviceCollection.countDocuments();
+
+    # After
+      let multiDeviceCollection = this.mongoose.connection.db?.collection(`whatsapp-${options.session}.files`);
+      let hasExistingSession = await multiDeviceCollection?.countDocuments();
+
+```
+
+2. Open the `node_modules/whatsapp-web.js/src/util/Injected.js` file and make the following changes on line 28
+
+```sh
+  # Before
+  window.Store.QueryExist = window.mR.findModule('queryExists')[0].queryExists;
+
+  # After
+  window.Store.QueryExist = window.mR.findModule('queryExists')[0] ? window.mR.findModule('queryExists')[0].queryExists : window.mR.findModule('queryExist')[0].queryWidExists;
 ```
 
 ## :memo: Contributioin ##
@@ -121,3 +157,4 @@ Made with :heart: by <a href="https://github.com/qbentil" target="_blank">Shadra
 &#xa0;
 
 <a href="#top">Back to top</a>
+```
