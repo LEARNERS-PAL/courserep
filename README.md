@@ -8,7 +8,7 @@
 
 <h1 align="center">Courserep</h1>
 
-<!-- <p align="center">
+<p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/LEARNERS-PAL/courserep?color=56BEB8">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/LEARNERS-PAL/courserep?color=56BEB8">
@@ -22,7 +22,7 @@
   <img alt="Github forks" src="https://img.shields.io/github/forks/LEARNERS-PAL/courserep?color=56BEB8" />
 
   <img alt="Github stars" src="https://img.shields.io/github/stars/LEARNERS-PAL/courserep?color=56BEB8" />
-</p> -->
+</p>
 
 Status
 
