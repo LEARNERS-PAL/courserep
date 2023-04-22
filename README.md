@@ -147,12 +147,12 @@ Contributions are what make the open source community such an amazing place to b
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 
-<!-- ## :memo: License ##
+ ## :memo: Contributors ##
+These are the great people who contributed to this project.
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file. -->
+<!-- readme: contributors -start -->
+<!-- readme: contributors -end -->
 
-
-Made with :heart: by <a href="https://github.com/qbentil" target="_blank">Shadrack Bentil</a>
 
 &#xa0;
 
