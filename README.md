@@ -151,6 +151,30 @@ Contributions are what make the open source community such an amazing place to b
 These are the great people who contributed to this project.
 
 <!-- readme: contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/qbentil">
+            <img src="https://avatars.githubusercontent.com/u/55560024?v=4" width="100;" alt="qbentil"/>
+            <br />
+            <sub><b>Bentil Shadrack</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Ethel3">
+            <img src="https://avatars.githubusercontent.com/u/88440439?v=4" width="100;" alt="Ethel3"/>
+            <br />
+            <sub><b>Ethel Akrasi Akosua</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Mhira-codes">
+            <img src="https://avatars.githubusercontent.com/u/86830656?v=4" width="100;" alt="Mhira-codes"/>
+            <br />
+            <sub><b>Mhira-codes</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors -end -->
 
 
