@@ -38,7 +38,7 @@ Status
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="https://github.com/LEARNERS-PAL" target="_blank">Author</a>
+  <a href="#memo-contributors" target="_blank">Contributors</a>
 </p>
 
 <br>
@@ -157,4 +157,4 @@ These are the great people who contributed to this project.
 &#xa0;
 
 <a href="#top">Back to top</a>
-```
+
