@@ -1,4 +1,3 @@
-Bentil 💧🌈, [4/23/2023 10:08 PM]
 const { Client, LocalAuth, List, RemoteAuth } = require("whatsapp-web.js");
 require('dotenv').config()
 const mongoose = require('mongoose')
@@ -112,7 +111,6 @@ const doSome = async () => {
 
 // doSome();
 
-Bentil 💧🌈, [4/23/2023 10:08 PM]
 const mongo = process.env["MONGO_CONNECTION"]  "";
 
 (async function () {
@@ -225,7 +223,6 @@ const mongo = process.env["MONGO_CONNECTION"]  "";
 
           //   //
 
-Bentil 💧🌈, [4/23/2023 10:09 PM]
 let currentPolls = activeSession.polls
           //   //     const newSessionData = { ...activeSession, polls: currentPolls.filter((poll) => poll?.id?.id !== pollId) }
           //   //     _Session.setSession(sessionId, newSessionData)
@@ -345,7 +342,6 @@ let currentPolls = activeSession.polls
       console.log("<<<<<<<<<Session Saved>>>>>>>>")
     }
 
-Bentil 💧🌈, [4/23/2023 10:09 PM]
 try {
       // listen to all quoted messages that have the 
       // if (msg.hasQuotedMsg && currentSession.polls) {
@@ -451,7 +447,6 @@ try {
               mentions: [...currentSession?.groupMentions]
             })
 
-Bentil 💧🌈, [4/23/2023 10:09 PM]
 const poll = {
               id: pollMessage.id,
               question,
@@ -514,7 +509,6 @@ const poll = {
 
       if (msg.body == "!help" && currentSession.isMuted === false) {
 
-Bentil 💧🌈, [4/23/2023 10:09 PM]
 // let sections = [
         //   {
         //     title: 'sectionTitle', rows: [
@@ -609,7 +603,6 @@ Bentil 💧🌈, [4/23/2023 10:09 PM]
                     .sort((a, b) => b.numberOfContributions - a.numberOfContributions), range
                 )
 
-Bentil 💧🌈, [4/23/2023 10:09 PM]
 );
 
             });
@@ -712,7 +705,6 @@ Bentil 💧🌈, [4/23/2023 10:09 PM]
         }
       }
 
-Bentil 💧🌈, [4/23/2023 10:09 PM]
 if (msg.body.startsWith("!everyone") && currentSession.isMuted === false) {
         const currentChat = await msg.getChat();
         const senderContact = await msg.getContact();
@@ -824,7 +816,6 @@ if (msg.body.startsWith("!everyone") && currentSession.isMuted === false) {
         console.log("Registration data", !!registrationData);
         let canRegister = true
 
-Bentil 💧🌈, [4/23/2023 10:09 PM]
 for (var [key] of Object.entries(registrationData)) {
           if (!allowedKeys.includes(key)) {
             canRegister = false;
@@ -953,7 +944,6 @@ for (var [key] of Object.entries(registrationData)) {
 
       currentSession = await _Session.getSession(sessionId, client)
 
-Bentil 💧🌈, [4/23/2023 10:09 PM]
 const reciepients = await notification.getRecipients();
 
       const chat = await client.getChatById(sessionId)
